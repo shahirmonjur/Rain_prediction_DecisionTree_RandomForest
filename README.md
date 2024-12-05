@@ -1,12 +1,12 @@
-#Rain Prediction Model Documentation
-##Introduction
+# Rain Prediction Model Documentation
+## Introduction
 
 This project focuses on predicting rainfall using machine learning algorithms, specifically Decision Tree and Random Forest, from the scikit-learn library. By leveraging historical weather data, the project demonstrates how decision-based algorithms can provide accurate and insightful predictions.
 
 The goal is to analyze weather features, preprocess the data, train the models, and tune hyperparameters to optimize performance.
 
 
-##Overview:
+## Overview:
 
 - Downloading a real-world dataset
 - Preparing a dataset for training
@@ -24,7 +24,7 @@ This tutorial takes a practical and coding-focused approach. We'll learn how to 
 >
 > ![](https://i.imgur.com/5QNJvir.png)
 
-##Insights:
+## Insights:
 
 - Certain features like Humidity and Temperature showed strong correlations with rainfall likelihood.
 - Outliers were detected and treated appropriately to ensure robust model performance.
@@ -38,21 +38,21 @@ This tutorial takes a practical and coding-focused approach. We'll learn how to 
 
 
 
-##Preprocessing Steps:
+## Preprocessing Steps:
 
 - Missing Values: Handled using imputation techniques for continuous and categorical features.
 - Feature Encoding: Converted categorical data (if any) into numerical format using methods like One-Hot Encoding.
 - Feature Scaling: Applied normalization or standardization for better model performance (e.g., for algorithms sensitive to scale like Random Forest).
 
 
-##Model Training
+## Model Training
 
 Two models were trained and evaluated:
 
 1. Decision Tree: A single tree-based model that splits data into smaller subsets based on feature thresholds.
 2. Random Forest: An ensemble model that aggregates the predictions of multiple Decision Trees to reduce overfitting and improve accuracy.
 
-##Hyperparameter Tuning
+## Hyperparameter Tuning
 
 Key hyperparameters were tuned using GridSearchCV for optimal performance:
 
@@ -65,7 +65,7 @@ Key hyperparameters were tuned using GridSearchCV for optimal performance:
   - max_features: Number of features considered for each split.
 
 
-##Conclusion
+## Conclusion
 
 This project highlights the potential of Decision Tree and Random Forest models in rain prediction tasks. Key takeaways include:
 
